@@ -1,0 +1,43 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# pyenv
+.python-version
+
+# Environments
+# .env
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+settings.json
+
+# AWS SAM
+.aws-sam/*
+samconfig.toml
+
+# For ignoring useful files we don't want to commit
+.gitignore-*
